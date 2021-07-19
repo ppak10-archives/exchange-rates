@@ -23,6 +23,7 @@ module.exports = {
     alias: {
       api: path.resolve(__dirname, './src/api'),
       common: path.resolve(__dirname, './src/common'),
+      config: path.resolve(__dirname, './src/config'),
     },
     extensions: ['.tsx', '.ts', '.js'],
   },

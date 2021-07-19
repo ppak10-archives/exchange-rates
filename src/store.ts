@@ -10,10 +10,12 @@ import thunkMiddleware from 'redux-thunk';
 // Reducers
 import api from 'api/reducer';
 import common from 'common/reducer';
+import symbols from './symbols/reducer';
 
 const reducers = combineReducers({
   api,
   common,
+  symbols,
 });
 
 const rootReducer = (state, action) => {

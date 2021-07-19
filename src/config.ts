@@ -7,6 +7,6 @@
 const PROTOCOL = 'https';
 
 // Defaults to `http` protocol if no environment variable is provided
-const DOMAIN = 'dog.ceo';
+const DOMAIN = 'api.exchangerate.host';
 
 export const HOST = `${PROTOCOL}://${DOMAIN}`;
